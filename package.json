@@ -4,10 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    
     "start": "nodemon server/server.js",
     "dev": "nodemon server/server.js",
-    "build":"npm install && npm install --prefix client && npm run build --prefix client"
+    "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +22,9 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.10.0",
     "multer": "^1.4.5-lts.1",
-    "nodemon": "^3.1.9",
     "paypal-rest-sdk": "^1.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
