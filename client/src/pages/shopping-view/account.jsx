@@ -1,7 +1,7 @@
 import Address from "@/components/shopping-view/address";
 import ShoppingOrders from "@/components/shopping-view/orders";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import accountImg from "../../assets/accountImage.jpg";
+import accountImg from "../../assets/accountimage.jpg";
 
 function ShoppingAccount() {
   return (
